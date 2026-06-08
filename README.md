@@ -2,5 +2,5 @@
 
 This is an Indonesian translation of Pokémon FireRed and LeafGreen based on the pret decompilation.
 
-Mungkin judulnya jadi 
-Pokémon Merapi (Merah + Api) dan Pokémon Hijaun (Hijau + Daun). 😅
+Kalau judulnya diterjemahin mungkin jadi 
+Pokémon Merapi (Merah + Api) dan Pokémon Hidaun (Hijau + Daun). 😅
