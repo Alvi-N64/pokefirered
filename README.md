@@ -8,5 +8,5 @@ Pokémon Merapi (Merah + Api) dan Pokémon Hidaun (Hijau + Daun). 😅
 
 # Rencana
 
-- Pokédex nya pakai Metric (seperti di TCG Indonesia & kehidupan sehari-hari)
-- Ada 2 patch: yang satu melokalisasi nama-nama Pokémon & kota-kota nya ke Indonesia, yang satunya ngikut nama-nama versi English
+- Pokédex nya pakai Metric (m & kg) seperti di Pokémon TCG Indonesia dan kehidupan sehari-hari
+- Ada 2 patch: yang satu melokalisasi nama-nama Pokémon dan kota-kota nya ke Indonesia, yang satunya lagi ngikut nama-nama versi English
