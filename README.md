@@ -1,6 +1,6 @@
 # Pokémon FireRed and LeafGreen
 
-This is Indonesian translation of Pokémon FireRed and LeafGreen based on pret decompilation.
+This is an Indonesian translation of Pokémon FireRed and LeafGreen based on the pret decompilation.
 
 Mungkin judulnya jadi
 Pokémon Merapi dan Pokémon HijauDaun. 😅
