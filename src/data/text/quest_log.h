@@ -1,7 +1,7 @@
-const u8 gText_QuestLog_PreviouslyOnYourQuest[] = _("Previously on your quest…");
-const u8 gText_QuestLog_SwitchMon1WithMon2[] = _("{PLAYER} switched the POKéMON\n{STR_VAR_1} with {STR_VAR_2}.");
-const u8 gText_QuestLog_SwappedHeldItemsOnMon[] = _("Took the item {STR_VAR_2} from\n{STR_VAR_1} and gave it the item\n{STR_VAR_3} to hold.");
-const u8 gText_QuestLog_TookHeldItemFromMon[] = _("Took the item {STR_VAR_2} from\n{STR_VAR_1}.");
+const u8 gText_QuestLog_PreviouslyOnYourQuest[] = _("Dalam perjalananmu sebelumnya…");
+const u8 gText_QuestLog_SwitchMon1WithMon2[] = _("{PLAYER} mengganti POKéMON\n{STR_VAR_1} dengan {STR_VAR_2}.");
+const u8 gText_QuestLog_SwappedHeldItemsOnMon[] = _("Mengambil {STR_VAR_2} dari\n{STR_VAR_1} dan memberikannya kepada\n{STR_VAR_3}.");
+const u8 gText_QuestLog_TookHeldItemFromMon[] = _("Mengambil {STR_VAR_2} dari\n{STR_VAR_1}.");
 const u8 gText_QuestLog_UsedItemOnMonAtThisLocation[] = _("Used the item {STR_VAR_1} on {STR_VAR_2}\nat this location.");
 const u8 gText_QuestLog_UsedTheItem[] = _("{PLAYER} used the\n{STR_VAR_1}.");
 const u8 gText_QuestLog_UsedTheKeyItem[] = _("Used the item {STR_VAR_1}, which was\nin the KEY ITEMS POCKET.");
