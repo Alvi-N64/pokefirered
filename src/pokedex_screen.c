@@ -2735,7 +2735,6 @@ void DexScreen_PrintMonHeight(u8 windowId, u16 species, u8 x, u8 y)
         buffer[i++] = CHAR_COMMA;
         buffer[i++] = (height % 10) + CHAR_0;
         buffer[i++] = CHAR_m;
-        buffer[i++] = EOS;
     }
     else
     {
@@ -2744,8 +2743,8 @@ void DexScreen_PrintMonHeight(u8 windowId, u16 species, u8 x, u8 y)
         buffer[i++] = CHAR_COMMA;
         buffer[i++] = CHAR_QUESTION_MARK;
         buffer[i++] = CHAR_m;
-        buffer[i++] = EOS;
     }
+    buffer[i++] = EOS;
 
     DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, labelText, x, y, 0);
     x += 30;
