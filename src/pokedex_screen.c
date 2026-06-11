@@ -2638,7 +2638,7 @@ void DexScreen_DexPageZoomEffectFrame(u8 bg, u8 scale)
     else if (top < 2) // or up.
         top = 2;
 
-    divY = (top + 1) + ((height / 2) + 1); // The horizontal divider
+    divY = (top + 2) + (height / 2) - 1;
 
     // Top edge
     FillBgTilemapBufferRect_Palette0(bg, 4, left, top, 1, 1);
