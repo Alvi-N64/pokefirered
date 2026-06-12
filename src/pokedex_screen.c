@@ -2698,9 +2698,9 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
 
     categoryStr[index] = EOS;
 
-    DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, categoryStr, x, y, 0);
-    x += GetStringWidth(FONT_SMALL, categoryStr, 0);
     DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, gText_PokedexPokemon, x, y, 0);
+    x += GetStringWidth(FONT_SMALL, gText_PokedexPokemon, 0);
+    DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, categoryStr, x, y, 0); // Menukar posisi kalimat
 }
 
 void DexScreen_PrintMonHeight(u8 windowId, u16 species, u8 x, u8 y)
