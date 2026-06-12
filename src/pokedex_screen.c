@@ -2743,6 +2743,7 @@ void DexScreen_PrintMonHeight(u8 windowId, u16 species, u8 x, u8 y)
         buffer[i++] = CHAR_QUESTION_MARK;
     }
 
+    buffer[i++] = CHAR_SPACE;
     buffer[i++] = CHAR_m;
     buffer[i++] = EOS;
 
