@@ -3930,8 +3930,8 @@ static void ReturnFromBattleToOverworld(void)
 #if defined(BUGFIX) || REVISION >= 0xA
             if ((gBattleOutcome == B_OUTCOME_WON) || gBattleOutcome == B_OUTCOME_CAUGHT || gBattleOutcome == B_OUTCOME_DREW)
 #else
-            if ((gBattleOutcome & B_OUTCOME_WON) || gBattleOutcome == B_OUTCOME_CAUGHT) // Bug: When Roar is used by roamer, gBattleOutcome is B_OUTCOME_PLAYER_TELEPORTED (5).
-#endif                                                                                  // & with B_OUTCOME_WON (1) will return TRUE and deactivates the roamer.
+            if ((gBattleOutcome == B_OUTCOME_WON) || gBattleOutcome == B_OUTCOME_CAUGHT || gBattleOutcome == B_OUTCOME_DREW) // Perbaikan Bug "Roar Glitch" dari versi Switch (Rev A)
+#endif                                                                                  
                 SetRoamerInactive();
         }
         m4aSongNumStop(SE_LOW_HEALTH);
