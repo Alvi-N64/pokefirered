@@ -729,7 +729,7 @@ static u8 SaveDialogCB_AskSaveHandleInput(void)
     {
     case 0:
         if ((gSaveFileStatus != SAVE_STATUS_EMPTY && gSaveFileStatus != SAVE_STATUS_INVALID) || !gDifferentSaveFile)
-            sSaveDialogCB = SaveDialogCB_PrintAskOverwriteText;
+            sSaveDialogCB = SaveDialogCB_PrintSavingDontTurnOffPower;
         else
             sSaveDialogCB = SaveDialogCB_PrintSavingDontTurnOffPower;
         break;
