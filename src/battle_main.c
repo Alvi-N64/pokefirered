@@ -3930,7 +3930,7 @@ static void ReturnFromBattleToOverworld(void)
 #if defined(BUGFIX) || REVISION >= 0xA
             if ((gBattleOutcome == B_OUTCOME_WON) || gBattleOutcome == B_OUTCOME_CAUGHT || gBattleOutcome == B_OUTCOME_DREW)
 #else
-            if ((gBattleOutcome == B_OUTCOME_WON) || gBattleOutcome == B_OUTCOME_CAUGHT || gBattleOutcome == B_OUTCOME_DREW) // Perbaikan Bug "Roar Glitch" dari versi Switch (Rev A)
+            if ((gBattleOutcome == B_OUTCOME_WON) || gBattleOutcome == B_OUTCOME_CAUGHT || gBattleOutcome == B_OUTCOME_DREW) // Perbaikan Bug "Roar Glitch" dari versi Switch
 #endif                                                                                  
                 SetRoamerInactive();
         }
