@@ -2700,21 +2700,20 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
 
     DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, gText_PokedexPokemon, x, y, 0);
     x += GetStringWidth(FONT_SMALL, gText_PokedexPokemon, 0);
-    DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, categoryStr, x, y, 0); // Menukar posisi kalimat
+    DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, categoryStr, x, y, 0); // Menukar posisi kalimat sesuai tata bahasa indonesia
 }
 
-void DexScreen_PrintMonHeight(u8 windowId, u16 species, u8 x, u8 y)
+void DexScreen_PrintMonHeight(u8 windowId, u16 species, u8 x, u8 y) // Pakai meter
 {
     u16 height;
     const u8 *labelText;
     u8 buffer[32];
-    u8 i;
+    u8 i = 0;
 
     species = SpeciesToNationalPokedexNum(species);
     height = gPokedexEntries[species].height;
     labelText = gText_HT;
-
-    i = 0;
+    
     buffer[i++] = EXT_CTRL_CODE_BEGIN;
     buffer[i++] = EXT_CTRL_CODE_MIN_LETTER_SPACING;
     buffer[i++] = 5;
@@ -2752,19 +2751,18 @@ void DexScreen_PrintMonHeight(u8 windowId, u16 species, u8 x, u8 y)
     DexScreen_AddTextPrinterParameterized(windowId, FONT_SMALL, buffer, x, y, 0);
 }
 
-void DexScreen_PrintMonWeight(u8 windowId, u16 species, u8 x, u8 y)
+void DexScreen_PrintMonWeight(u8 windowId, u16 species, u8 x, u8 y) // Pakai kilogram
 {
     u16 weight;
     bool8 output;
     const u8 * labelText;
     u8 buffer[32];
-    u8 i;
+    u8 i = 0;
 
     species = SpeciesToNationalPokedexNum(species);
     weight = gPokedexEntries[species].weight;
     labelText = gText_WT;
 
-    i = 0;
     buffer[i++] = EXT_CTRL_CODE_BEGIN;
     buffer[i++] = EXT_CTRL_CODE_MIN_LETTER_SPACING;
     buffer[i++] = 5;
