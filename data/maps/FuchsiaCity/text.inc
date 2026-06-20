@@ -105,8 +105,7 @@ Text_SubstituteTaught::
     .string "a KANGASKHAN belly pouch…$"
 
 FuchsiaCity_Text_MyFatherIsGymLeader::
-    .string "My father is the GYM LEADER of\n"
-    .string "this town.\p"
-    .string "I'm training to use POISON POKéMON\n"
-    .string "as well as my father.$"
+    .string "Ayahku seorang KETUA GYM di kota ini.\p"
+    .string "Aku berlatih menggunakan POKéMON RACUN\n"
+    .string "seperti ayahku.$"
 
